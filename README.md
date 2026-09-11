@@ -1,6 +1,6 @@
 # Machine Learning with Normative Modeling Tutorial 
-## Computational Psychiatry Course 2025
-This repository contains written instructions, links to code, and data used for the (virtual) Machine Learning/Normative Modeling Practical at the [Computational Psychiatry Course](https://www.translationalneuromodeling.org/cpcourse/) 2025 in Zurich, also presented at the [Computational Psychiatry Conference](https://www.cpconf.org/) 2025 in Tübingen. We encourage anyone who wants to apply or teach about normative modeling to use these tutorials freely for educational purposes. 
+## Computational Psychiatry Course 2026
+This repository contains written instructions, links to code, and data used for the (virtual) Machine Learning/Normative Modeling Practical at the [Computational Psychiatry Course](https://www.translationalneuromodeling.org/cpcourse/) 2026 in Zurich, also presented at the [Computational Psychiatry Conference](https://www.cpconf.org/) 2026 in Tübingen. We encourage anyone who wants to apply or teach about normative modeling to use these tutorials freely for educational purposes. 
 
 ## Overview tutorial
 In this tutorial you will learn:
@@ -8,7 +8,7 @@ In this tutorial you will learn:
 2. Interpret and visualize the outputs of the normative models.
 3. Use the deviation scores to predict schizophrenia.
 
-This repository is a group effort by [Saige Rutherford](https://twitter.com/being_saige), [Thomas Wolfers](https://twitter.com/ThomasWolfers) and has been updated and edited by [Barbora Rehák Bučková](https://twitter.com/BarboraRehak), [Hannah Savage](https://twitter.com/DrHannahSavage) and [Charlotte Fraza](https://twitter.com/CFraza) and in general is maintained by the [Predictive Clinical Neuroscience Lab](https://predictiveclinicalneuroscience.com/).
+This repository is a group effort by [Saige Rutherford](https://www.linkedin.com/in/saigerutherford/), [Thomas Wolfers](https://www.linkedin.com/in/thomas-wolfers-5b96694b/), [Barbora Rehák Bučková](https://www.linkedin.com/in/barbora-buckova/), [Hannah Savage](https://www.linkedin.com/in/hannah-s-savage/) and [Charlotte Fraza](https://www.linkedin.com/in/charlotte-f-703164b9/) and in general is maintained by the [Predictive Clinical Neuroscience Lab](https://predictiveclinicalneuroscience.com/).
 
 ## Prerequisite knowledge
 We will be running all of our code in Google Colab Python notebooks. These are essentially Jupyter notebooks run in the :cloud: *cloud* :cloud:. 
@@ -40,13 +40,9 @@ Once you are in the Colab notebook tab, in the top right corner you will see a `
 Before clicking on the collab button below, make sure you are logged into a Google account and using Chrome or Firefox internet browser (hopefully a current version)
 
 ## Tasks
-**Task 1: Fitting normative models from scratch** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CharFraza/CPC_ML_tutorial/blob/master/tasks/1_fit_normative_models.ipynb)
+**Task 1: Fitting normative models from scratch** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CharFraza/CPC_ML_tutorial/blob/2026/tasks/1_fit_normative_models.ipynb)
 
-**Task 2: Applying pre-trained normative models** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CharFraza/CPC_ML_tutorial/blob/master/tasks/2_apply_normative_models.ipynb)
-
-**Task 3: Interpreting and visualizing the outputs of normative models** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CharFraza/CPC_ML_tutorial/blob/master/tasks/3_Visualizations.ipynb)
-
-**Task 4: Using the outputs (Z-scores) as features in predictive model** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CharFraza/CPC_ML_tutorial/blob/master/tasks/4_post_hoc_analysis.ipynb)
+**Task 2: Applying pre-trained normative models and longitudinal analysis** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CharFraza/CPC_ML_tutorial/blob/2026/tasks/2_transfer_and_longitudinal.ipynb)
 
 ## Video
 If you did not have the chance to follow the lecture live at the CPC course here is an alternative presentation given by [Andre Marquand](https://twitter.com/amarquand?lang=en) or [Saige Rutherford](https://www.beingsaige.com/) on Normative modelling:
@@ -56,6 +52,7 @@ If you did not have the chance to follow the lecture live at the CPC course here
 
 ## Suggested Reading
 Here we provide a non-exhaustive list of papers to help you with your understanding of the normative framework.
+- [The promise of quantifying individual risk for brain disorders through normative modeling, a narrative review](https://pubmed.ncbi.nlm.nih.gov/40651683/)
 - [Evidence for embracing normative modeling](https://elifesciences.org/articles/85082)
 - [The normative modeling framework for computational psychiatry](https://www.nature.com/articles/s41596-022-00696-5)
 - [Charting brain growth and aging at high spatial precision](https://elifesciences.org/articles/72904)

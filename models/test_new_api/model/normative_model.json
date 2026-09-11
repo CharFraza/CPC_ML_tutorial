@@ -1,0 +1,158 @@
+{
+    "name": null,
+    "save_dir": "/home/preclineu/chafra/Desktop/code_postdoc/CPC_ML_tutorial/models/test_new_api",
+    "savemodel": true,
+    "saveresults": true,
+    "saveplots": true,
+    "evaluate_model": true,
+    "template_regression_model": {
+        "name": "lifespan_blr",
+        "type": "BLR",
+        "is_fitted": false,
+        "is_from_dict": false,
+        "transfered": false,
+        "ptk_version": "1.3.0",
+        "_name": "lifespan_blr",
+        "n_iter": 100,
+        "tol": 0.001,
+        "ard": false,
+        "optimizer": "l-bfgs-b",
+        "l_bfgs_b_l": 0.1,
+        "l_bfgs_b_epsilon": 0.1,
+        "l_bfgs_b_norm": "l2",
+        "fixed_effect": true,
+        "fixed_effect_slope": true,
+        "fixed_effect_slope_indices": null,
+        "heteroskedastic": true,
+        "fixed_effect_var": false,
+        "fixed_effect_var_slope": true,
+        "fixed_effect_var_slope_indices": null,
+        "warp_name": null,
+        "n_gamma": 0,
+        "warp_params": null,
+        "warp_reparam": false,
+        "gamma": null,
+        "basis_function_mean": {
+            "basis_column": 0,
+            "is_fitted": false,
+            "basis_name": "bspline",
+            "min": null,
+            "max": null,
+            "compute_min": true,
+            "compute_max": true,
+            "degree": 3,
+            "nknots": 5,
+            "left_expand": 0.05,
+            "right_expand": 0.05,
+            "knot_method": "uniform",
+            "knots": null,
+            "basis_function": "BsplineBasisFunction"
+        },
+        "basis_function_var": {
+            "basis_column": 0,
+            "is_fitted": false,
+            "basis_name": "linear",
+            "min": null,
+            "max": null,
+            "compute_min": true,
+            "compute_max": true,
+            "basis_function": "LinearBasisFunction"
+        },
+        "models_variance": true,
+        "hyp0": null,
+        "hyp": null
+    },
+    "inscalers": {
+        "age": {
+            "scaler_type": "standardize",
+            "adjust_outliers": false,
+            "m": 40.38872714023216,
+            "s": 17.228312731392325,
+            "min": 18.0,
+            "max": 87.0
+        }
+    },
+    "is_fitted": true,
+    "inscaler": "standardize",
+    "outscaler": "standardize",
+    "y_transform": null,
+    "ptk_version": "1.3.0",
+    "covariates": [
+        "age"
+    ],
+    "unique_batch_effects": {
+        "sex": [
+            "1",
+            "2"
+        ],
+        "site": [
+            "cam",
+            "hcp",
+            "ixi"
+        ]
+    },
+    "inverse_batch_effect_counts": {
+        "sex": {
+            "0_538": "1",
+            "1_625": "2"
+        },
+        "site": {
+            "0_307": "cam",
+            "1_556": "hcp",
+            "2_300": "ixi"
+        }
+    },
+    "batch_effects_maps": {
+        "sex": {
+            "0_0": "1",
+            "1_1": "2"
+        },
+        "site": {
+            "0_0": "cam",
+            "1_1": "hcp",
+            "2_2": "ixi"
+        }
+    },
+    "batch_effect_covariate_ranges": {
+        "sex": {
+            "1": {
+                "age": {
+                    "min": 19.0,
+                    "max": 87.0
+                }
+            },
+            "2": {
+                "age": {
+                    "min": 18.0,
+                    "max": 87.0
+                }
+            }
+        },
+        "site": {
+            "cam": {
+                "age": {
+                    "min": 18.0,
+                    "max": 87.0
+                }
+            },
+            "hcp": {
+                "age": {
+                    "min": 22.0,
+                    "max": 36.0
+                }
+            },
+            "ixi": {
+                "age": {
+                    "min": 19.98083504,
+                    "max": 86.31895962
+                }
+            }
+        }
+    },
+    "covariate_ranges": {
+        "age": {
+            "min": 18.0,
+            "max": 87.0
+        }
+    }
+}
