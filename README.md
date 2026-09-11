@@ -40,9 +40,9 @@ Once you are in the Colab notebook tab, in the top right corner you will see a `
 Before clicking on the collab button below, make sure you are logged into a Google account and using Chrome or Firefox internet browser (hopefully a current version)
 
 ## Tasks
-**Task 1: Fitting normative models from scratch** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CharFraza/CPC_ML_tutorial/blob/2026/tasks/1_fit_normative_models.ipynb)
+**Task 1: Fitting normative models from scratch** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CharFraza/CPC_ML_tutorial/blob/master/tasks/1_fit_normative_models.ipynb)
 
-**Task 2: Applying pre-trained normative models and longitudinal analysis** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CharFraza/CPC_ML_tutorial/blob/2026/tasks/2_transfer_and_longitudinal.ipynb)
+**Task 2: Applying pre-trained normative models and longitudinal analysis** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CharFraza/CPC_ML_tutorial/blob/master/tasks/2_transfer_and_longitudinal.ipynb)
 
 ## Video
 If you did not have the chance to follow the lecture live at the CPC course here is an alternative presentation given by [Andre Marquand](https://twitter.com/amarquand?lang=en) or [Saige Rutherford](https://www.beingsaige.com/) on Normative modelling:
